@@ -1,16 +1,122 @@
 ---
-
+import 
 ---
 
+<!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Gavin Fraser</title>
+		<link rel="icon" href="images/gavin_fraser_barcode.jpg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="fss/gavinfraser.css" />
+
+		<style>
+			.home {
+				---text-decoration: underline;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="navigation">
+			<div class="navbar">
+				<table>
+					<tr>
+						<td id="work-align">
+							<a href="work.html" class="work"><h1>Work,</h1> </a>
+						</td>
+
+						<td id="contact-align">
+							<h1>
+								<a href="about.html" class="about">About</a>,
+								<a href="contact.html" class="contact"><span>Contact</span> </a>
+							</h1>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="home">
+				<a href="index.html"><h1>Gavin Fraser</h1></a>
+			</div>
+		</div>
+		<div class="content hidden-content" id="leftContent">
+			<div class="page about-me">
+				<h2>
+					I am an architect and designer based in San Francisco. I aspire to help make the built environment
+					more livable, sustainable, and equitable through housing accessibility, better materials, and better
+					labor practices. <br /><br />
+					I am pursuing these goals as a designer at
+					<a href="1-DBA.html" id="dba">David Baker Architects<sup style="font-size: 0.6vw">1</sup></a
+					>, a publisher and editor of
+					<a href="2-TLS.html" id="tls">The Last Straw magazine<sup style="font-size: 0.6vw">2</sup></a
+					>, a board member of the
+					<a href="3-CASBA.html" id="casba"
+						>California Straw Building Association<sup style="font-size: 0.6vw">3</sup></a
+					>, and occassionally through
+					<a href="4-OP.html" id="op">other projects<sup style="font-size: 0.6vw">4</sup></a
+					>. <br /><br />
+					I have collaboratively designed and built three homes at the
+					<a href="5-AURS.html" id="aurs"
+						>Auburn University Rural Studio<sup style="font-size: 0.6vw">5</sup></a
+					>, fabricated custom architectural features with the
+					<a href="6-DBA_W.html" id="dbaw">DBA_Workshop<sup style="font-size: 0.6vw">6</sup></a
+					>, and explored a wide range of
+					<a href="7-PP.html" id="pp">personal projects<sup style="font-size: 0.6vw">7</sup></a
+					>.
+					<a href="about.html" class="more" style="float: right"> &#8594; more</a>
+				</h2>
+			</div>
+			<div class="page-two about-me">
+				<table>
+					<tr>
+						<td class="resume-left"><h2>1. David Baker Architects</h2></td>
+						<td class="resume-right">
+							<h2>
+								East Palo Alto Housing<br />La Avenida Apartments<br />South Village Housing<br />Bay
+								Friendly Garden Shed
+							</h2>
+						</td>
+					</tr>
+					<tr>
+						<td class="resume-left"><h2>2. The Last Straw</h2></td>
+						<td class="resume-right">
+							<h2>
+								The Last Straw 75<br />The Last Straw 74<br />The Last Straw 73<br />The Last Straw
+								72<br />The Last Straw 71<br />
+							</h2>
+						</td>
+					</tr>
+					<tr>
+						<td class="resume-left"><h2>3. California Straw Building Association</h2></td>
+						<td class="resume-right"><h2>...</h2></td>
+					</tr>
+					<tr>
+						<td class="resume-left"><h2>4. Other Projects</h2></td>
+						<td class="resume-right"><h2>Housing Guide for the Rural American West</h2></td>
+					</tr>
+					<tr>
+						<td class="resume-left"><h2>5. Auburn University Rural Studio</h2></td>
+						<td class="resume-right">
+							<h2>
+								Enhanced Independent Living<br />rural_studio_book.pdf<br />rural_studio_timelapse.mp4
+							</h2>
+						</td>
+					</tr>
+					<tr>
+						<td class="resume-left"><h2>6. DBA_Workshop</h2></td>
+						<td class="resume-right"><h2>Sango Court Ceiling and Mailboxes<br />Unit Entry Signs</h2></td>
+					</tr>
+					<tr>
+						<td class="resume-left"><h2>7. Personal Projects</h2></td>
+						<td class="resume-right">
+							<h2>A Breakfast Table<br />An Easy Chair</h2>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="image-modal" id="imageModal">
+			<img src="fotos/000 downloads/selfie_hoodie_shades.jpeg" alt="me" />
+		</div>
 	</body>
 </html>
