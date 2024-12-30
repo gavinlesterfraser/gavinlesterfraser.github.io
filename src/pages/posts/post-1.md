@@ -10,7 +10,6 @@ image:
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-<BaseLayout>
 # My First Blog Post
 
 Published on: 2022-07-01
@@ -28,4 +27,3 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 ## What's next
 
 I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
-</BaseLayout>
