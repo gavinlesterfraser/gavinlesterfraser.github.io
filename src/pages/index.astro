@@ -2,43 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<title>Gavin Fraser 1</title>
-		<link rel="icon" href="images/gavin_fraser_barcode.jpg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="fss/gavinfraser.css" />
-
-		<style>
-			.home {
-				---text-decoration: underline;
-			}
-		</style>
-	</head>
-	<body>
-		<BaseLayout>
-		<div class="navigation">
-			<div class="navbar">
-				<table>
-					<tr>
-						<td id="work-align">
-							<a href="work.html" class="work"><h1>Work,</h1> </a>
-						</td>
-
-						<td id="contact-align">
-							<h1>
-								<a href="about.html" class="about">About</a>,
-								<a href="contact.html" class="contact"><span>Contact</span> </a>
-							</h1>
-						</td>
-					</tr>
-				</table>
-			</div>
-			<div class="home">
-				<a href="index.html"><h1>Gavin Fraser</h1></a>
-			</div>
-		</div>
+<BaseLayout>
 		<div class="content hidden-content" id="leftContent">
 			<div class="page about-me">
 				<h2>
@@ -115,10 +79,4 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 				</table>
 			</div>
 		</div>
-
-		<div class="image-modal" id="imageModal">
-			<img src="fotos/000 downloads/selfie_hoodie_shades.jpeg" alt="me" />
-		</div>
-	</body>
-
 </BaseLayout>

@@ -171,6 +171,13 @@ body a:hover {
 	text-align: right;
 }
 
+#about-align{
+	position: fixed;
+	top: 3.09vw;
+	left: 65vw;
+	text-align: left;
+}
+
 p {
 	font-family: "Sneak", Helvetica, sans-serif;
 	font-size: 23pt;
