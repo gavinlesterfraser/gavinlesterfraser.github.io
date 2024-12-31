@@ -144,40 +144,6 @@ body a:hover {
 	}
 }
 
-.navbar {
-	position: fixed;
-	top: 2.91vw;
-	text-align: left;
-	margin: 0 0 0 34.82vw;
-	z-index: 9000;
-}
-
-.navbar a {
-	color: #000000;
-}
-.navbar a:hover {
-	color: #000;
-	text-decoration: underline;
-}
-
-.navbar td {
-	padding-right: 5px;
-}
-
-#contact-align{
-	position: fixed;
-	top: 3.09vw;
-	right: 5vw;
-	text-align: right;
-}
-
-#about-align{
-	position: fixed;
-	top: 3.09vw;
-	left: 65vw;
-	text-align: left;
-}
-
 p {
 	font-family: "Sneak", Helvetica, sans-serif;
 	font-size: 23pt;
@@ -309,7 +275,7 @@ h5 a:hover {
 	text-align: left;
 	text-decoration: none;
 	font-weight: 400;
-	color: #2e5ceb;
+	color: #000;
 	display: block;
 	position: absolute;
 	z-index: 25;
@@ -500,25 +466,8 @@ h5 a:hover {
 	height: auto;
 }
 
-.home {
-	text-align: left;
-	margin: 3.09vw 0 0 5vw;
-	position: fixed;
-	top: 0;
-	z-index: 400;
-}
-
-.home a {
-	color: #000000;
-}
-
 .blendmode {
 	position: absolute !important;
-}
-
-.home:hover {
-	text-decoration: underline;
-	cursor: default;
 }
 
 #filterLinks {
@@ -595,19 +544,7 @@ h5 a:hover {
 }
 
 
-.nav-link:hover {
-	text-decoration: underline;
-}
 
-.nav-link {
-	---font-size: 15px;
-	color: #000;
-	text-decoration: none;
-	---position: relative;
-	---bottom: -20px;
-	cursor: pointer;
-	padding: 38px 0 19px 0;
-}
 
 #prev {
 	left: 0; /* Position the Previous link to the left */
@@ -632,13 +569,6 @@ h5 a:hover {
 }
 .resume-right {
 	text-align: left;
-}
-
-.nav-links {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 19px;
-	padding: 0; /* Add padding to prevent buttons from touching edges */
 }
 
 ---custom-cursor {

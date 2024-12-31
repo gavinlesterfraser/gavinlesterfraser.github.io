@@ -1,23 +1,51 @@
 
-<div class="navigation">
-    <div class="home">
-        <a href="/"><h1>Gavin Fraser</h1></a>
-    </div>
-    <div class="navbar">
-        <table>
-            <tr>
-                <td id="work-align">
-                    <a href="/work/" class="work"><h1>Work,</h1> </a>
-                </td>
-
-                <td id="contact-align">
-                        <a href="/contact/" class="contact"><h1>Contact</h1> </a>
-                </td>
-            </tr>
-        </table>
-    </div>
-    
-    <div id="about-align">
-        <a href="/about/"><h1>About,</h1></a>
-    </div>
+<div class="navbar">
+    <h1>
+        <div id="nav-left">
+            <a href="/">About,</a>
+        </div>
+        <div id="nav-leftish">
+            <a href="/work/">Work,</a>
+        </div>
+        <div id="nav-rightish">
+            <a href="/project-index/">Index,</a>
+        </div>
+        <div id="nav-right">
+            <a href="/contact/">Contact</a>
+        </div>
+    </h1>
 </div>
+
+
+<style>
+#nav-left {
+    position: fixed;
+    left: 5vw;
+    }
+#nav-leftish {
+    position: fixed;
+	left: 35vw;
+    }
+#nav-rightish {
+    position: fixed;
+	left: 65vw;
+    } 
+#nav-right {
+    position: fixed;
+    right: 5vw;
+    }
+
+.navbar {
+    position: fixed;
+	top: 3.09vw;
+    z-index: 400;
+	
+    }
+.navbar a {
+	color: #000;
+    }
+.navbar a:hover {
+	color: #000;
+	text-decoration: underline;
+    }
+</style>
