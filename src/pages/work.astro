@@ -1,7 +1,313 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Work";
 ---
 
 <BaseLayout>
+    <div id="filterLinks">
+        <h2>
+            <span class="filter-link active" onclick="filterItems('all')">All,</span>
+            <span class="filter-link" onclick="filterItems('tag1')"> Architecture,</span>
+            <span class="filter-link" onclick="filterItems('tag2')"> Editorial,</span>
+            <span class="filter-link" onclick="filterItems('tag3')"> Fabrication,</span>
+            <span class="filter-link" onclick="filterItems('tag4')"> Other</span>
+        </h2>
+    </div>
+    <div class="page-spacer">
+        <p></p>
+    </div>
+    <div id="itemList">
+        <div class="item" data-tags="tag1">
+            <div class="wip">
+                <img src="fotos/000 ongoing-woodland-park/2024-07-12 Podium Courtyard View 2.jpg" alt="armand" />
+                <h5>
+                    East Palo Alto Housing<br />
+                    Work in progress
+                </h5>
+            </div>
+        </div>
+        <div class="item wip" data-tags="tag1">
+                <img src="fotos/2024-11 dba-armand/21822 Sustainability Diagram Base.png" alt="armand" />
+                <h5>
+                    1188 Armand<br />
+                    Work in progress
+                </h5>
+        </div>
+        <div class="item wip" data-tags="tag1">
+            <img src="fotos/000 ongoing dba-claremont-south-village/2024-07-02 Terminus View.jpg" alt="armand" />
+            <h5>
+                South Village Housing<br />
+                Work in progress
+            </h5>
+        </div>
+        <div class="item" data-tags="tag1">
+            <div class="wip">
+                <img src="fotos/000 ongoing bay friendly garden/IMG_1825.jpeg" alt="armand" />
+                <h5>
+                    Bay Friendly Garden Shed<br />
+                    Work in progress
+                </h5>
+            </div>
+        </div>
 
+
+        
+        <div class="item" data-tags="tag2">
+            <div class="wip">
+                <img
+                    src="fotos/2025-03 Housing_guide_design/Screenshot 2024-09-25 at 11.44.31 PM.png"
+                    alt="armand" />
+                <h5>
+                    Housing Guide for the <br />
+                    Rural American West<br />
+                    Work in progress
+                </h5>
+            </div>
+        </div>
+        <!---div class="item" data-tags="tag1">
+            <a
+                class="wip"
+                href="https://www.dbarchitect.com/projects/villages-995-east-santa-clara"
+                target="_blank">
+                <img src="fotos/000 ongoing dba-995-esc/13.jpg" alt="armand" />
+                <h3>
+                    The Villages at 995 East Santa Clara<br />
+                    W.I.P.
+                </h3>
+            </a>
+        </!---div--->
+        <div class="item" data-tags="tag3">
+            <a href="2024-08_personal-project-table.html">
+                <img src="fotos/2024-08 personal-project-table/final-table-no-back.png" alt="table" />
+                <h5>
+                    A Breakfast Table
+                </h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag2 tag5">
+            <a href="2024-02_tls-75.html">
+                <img src="fotos/2024-02 tls-75/SimpleScanStation20240910174354_2.jpg" alt="tls-75" />
+                <h5>The Last Straw 75</h5>
+            </a>
+        </div>
+
+        <!---div class="icon">
+    <a href="2023-08_dba_workshop_barn-doors.html">
+    <img src="d_images/DBA_Workshop3.png" alt="barn-doors"/>
+    <h3>Barn Doors for Midway Village<br>2023<br>Fabrication</h3>
+    </a>
+</div>
+<div class="icon">
+    <a href="2023-09_dba_workshop_office-storefront.html">
+    <img src="fotos/2023-09 dba_workshop-office-storefront/IMG_2377.JPG" alt="storefront"/>
+    <h3>Office Storefront<br>2023<br>Fabrication</h3>
+    </a>
+</div--->
+        <div class="item" data-tags="tag3">
+            <a href="2023-10_personal-project-chair.html">
+                <img src="fotos/2023-10 personal-project-chair/final-chair-no-back.png" alt="chair" />
+                <h5>An Easy Chair</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag2 tag5">
+            <a href="2023_tls-74.html">
+                <img src="fotos/2023 tls-74/SimpleScanStation20240910175013_0.jpg" alt="tls-74" />
+                <h5>
+                    The Last Straw 74
+                </h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag3">
+            <a href="2023-06_dba_workshop_sango-court.html">
+                <img src="fotos/2023-06 dba_workshop-sango-court/IMG_5048.jpg" alt="sango" />
+                <h5>Sango Court Ceiling and Mailboxes<br />2023<br />DBA_Workshop</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag3">
+            <a href="2023_dba_workshop-unit-entry-signs.html">
+                <img src="fotos/2023 dba_workshop-unit-entry-signs/sango_signs.jpg" alt="unit-entry-signs" />
+                <h5>
+                    Unit Entry Signs
+                </h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag2 tag5">
+            <a href="2023_tls-73.html">
+                <img src="fotos/2023 tls-73/SimpleScanStation20240910175903_0.jpg" alt="tls-73" />
+                <h5>
+                    The Last Straw 73
+                </h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag4">
+            <a href="fotos/000 downloads/rainy_ocean_fishing.gif" download target="_blank">
+                <img src="fotos/000 downloads/rainy_ocean_fishing.gif" alt="rainy_ocean_gif" />
+                <h5>rainy_ocean_fishing.gif</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag2 tag5">
+            <a href="2022_tls-72.html" thelaststraw.html>
+                <img src="fotos/2022 tls-72/72.png" alt="tls-72" />
+                <h5>
+                    The Last Straw 72
+                </h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag2">
+            <a href="2022_tls-71.html">
+                <img src="fotos/2022 tls-71/the_last_straw2.png" alt="tls-71" />
+                <h5>
+                    The Last Straw 71
+                </h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag4">
+            <a href="fotos/000 downloads/Lawrence_and_Hobie.png" download target="_blank">
+                <img src="fotos/000 downloads/Lawrence_and_Hobie.png" alt="my cats" />
+                <h5>Lawrence_and_Hobie.png</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag4">
+            <a href="fotos/000 downloads/merry_christmas_anna.mp4" download target="_blank">
+                <img
+                    src="fotos/000 downloads/Screen Shot 2023-04-16 at 12.20.26 PM.png"
+                    alt="merry_christmas_anna" />
+                <h5>covid-christmas-card.mp4</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag4">
+            <a href="fotos/000 downloads/dune_and_roberta.m4a" download target="_blank">
+                <img
+                    src="fotos/000 downloads/Screen Shot 2023-04-16 at 1.34.23 PM.png"
+                    alt="Exxon_refinery_oil_drums" />
+                <h5>
+                    dune_and_roberta.m4a
+                </h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag4">
+            <a href="fotos/000 downloads/enough.mp3" download target="_blank">
+                <img
+                    src="fotos/000 downloads/Screen Shot 2023-04-16 at 1.34.23 PM.png"
+                    alt="Exxon_refinery_oil_drums" />
+                <h5>enough.mp3</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag2">
+            <a href="fotos/000 downloads/HOMES_print_book_2023.pdf" download target="_blank">
+                <img src="fotos/000 downloads/project_book.png" alt="project book" />
+                <h5>rural_studio_book.pdf</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag4">
+            <a href="fotos/000 downloads/fast_timelapse.mp4" download target="_blank">
+                <img
+                    src="fotos/000 downloads/Screen Shot 2023-04-16 at 12.55.05 PM.png"
+                    alt="rural_studio_timelapse" />
+                <h5>rural_studio_timelapse.mp4</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag1">
+            <a href="2017-2020_auburn-rural-studio.html">
+                <img
+                    src="fotos/2017-2020 auburn-rural-studio/Horseshoe-Homes_Hursley-03sm.jpg"
+                    alt="rural-studio" />
+                <h5>Enhanced Independent Living</h5>
+            </a>
+        </div>
+
+        <div class="item" data-tags="tag2 tag5">
+            <a href="2018-2020_personal-project-3month copy.html">
+                <img
+                    src="fotos/2018-2020 personal-project-3month/SimpleScanStation20240910183042_0.jpg"
+                    alt="3month" />
+                <h5>Three Month</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag1">
+            <a href="2017_wang_architects.html">
+                <img src="fotos/2017 wang-architects/OFFICE_AXON.png" alt="" />
+                <h5>Wang Architects work</h5>
+            </a>
+        </div>
+        <!---div class="item" data-tags="tag1">
+            <a href="2017_auburn-wood-skyscraper.html">
+                <img src="fotos/2017 auburn-wood-skyscraper/2019_Portfolio22 copy.jpg" alt="" />
+                <h3>Wood Skyscraper<br />2017<br />Student Architecture</h3>
+            </a>
+        </!---div--->
+        <div class="item" data-tags="tag3">
+            <a href="2015_auburn-standard-chair.html">
+                <img src="fotos/2015 auburn-standard-chair/chair_image.jpg" alt="SC" />
+                <h5>Standard Chair No. 4</h5>
+            </a>
+        </div>
+        <div class="item" data-tags="tag1">
+            <a href="2016_auburn_water-tower-project.html">
+                <img src="fotos/2016 auburn-water-tower project/2019_Portfolio20.jpg" alt="" />
+                <h5>Auburn University work</h5>
+            </a>
+        </div>
+        <!---div class="item" data-tags="tag1">
+            <a href="2014_auburn_wood-pavillion.html">
+                <img src="fotos/2014 auburn-wood-pavillion/ezgif.com-crop.gif" alt="" />
+                <h3>Wood Pavillion<br />2015-2017<br />Student project</h3>
+            </a>
+        </!---div--->
+    </div>
+
+    <script>
+     import "../scripts/work-files.js";
+    </script>
 </BaseLayout>
+
+
+<style>
+
+    .navbar .work{
+            text-decoration: underline;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column {
+      float: left;
+      ---width: 33.33%;
+      text-align: center;
+      ---padding-bottom: 100px;
+    }
+
+    ---row:after {
+      content: "";
+      display: table;
+      clear: both;
+        ---}
+
+    .topper {
+        ---padding-top: 90px;
+        ---padding-bottom: 30px;
+        }
+
+        @media screen and (max-width: 600px) {
+              .column {
+                    width: 100%;
+              }
+        }
+        @media (min-width : 1400px ){
+            .page-bottom {
+                position: absolute !important;
+                bottom: 3.4vw !important;
+                margin-bottom: 4vw !important;
+            }
+            .top-nav {
+                position: fixed !important;
+            }
+</style>
