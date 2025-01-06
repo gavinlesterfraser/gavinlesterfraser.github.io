@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background-color: #ffffff;
+	background-color: #faf9f6;
 }
 * {
 	box-sizing: border-box;
@@ -48,7 +48,7 @@ body a:hover {
 }
 
 ::selection {
-	color: #000;
+	color: #ff0000;
 }
 
 @media (max-width: 1419px) {
@@ -170,13 +170,13 @@ h0 {
 }
 
 h1 {
-	font-size: 1.1vw;
+	font-size: 1.25vw;
 	---font-size: 1vw;
 	font-family: "Sneak", Helvetica, sans-serif;
 }
 
 h2 {
-	font-size: 1.1vw;
+	font-size: 1.25vw;
 	font-family: "Sneak", Helvetica, sans-serif;
 }
 
@@ -195,7 +195,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1vw;
+	font-size: 1.25vw;
 	text-decoration: none;
 	font-family: "Sneak", Helvetica, sans-serif;
 }
@@ -243,8 +243,8 @@ h5 a:hover {
 
 .page,
 #page {
-	padding: 8.09vw 1.5vw 0 5vw;
-	max-width: 35vw;
+	padding: 8.09vw 1.5vw 0 3.5vw;
+	max-width: 34.5vw;
 	text-align: left;
 	text-decoration: none;
 	font-weight: 400;
@@ -256,9 +256,9 @@ h5 a:hover {
 }
 
 .page-two {
-	padding: 8.09vw 1vw 38px 35vw;
+	padding: 8.09vw 1vw 38px 34.5vw;
 	margin: 0 0 38px 0;
-	max-width: 65vw;
+	max-width: 65.5vw;
 	text-align: left;
 	text-decoration: none;
 	font-weight: 400;
@@ -269,9 +269,9 @@ h5 a:hover {
 }
 
 .page-three {
-	padding: 8.09vw 0 38px 65vw;
+	padding: 8.09vw 0 38px 65.5vw;
 	margin: 0 0 38px 0;
-	max-width: 95vw;
+	max-width: 96.5vw;
 	text-align: left;
 	text-decoration: none;
 	font-weight: 400;
@@ -444,7 +444,7 @@ h5 a:hover {
 }
 
 #itemList {
-	margin: 8.09vw 0 0 19px;
+	margin: 8.09vw 0 0 3.5vw;
 	padding: 0 0 0 0;
 }
 
@@ -586,14 +586,12 @@ h5 a:hover {
 	padding: 0.47vw 0 0 0;
 	z-index: 100;
 	font-size: 0.83vw;
-	background-color: #ffffff;
 	float: right;
 }
 .less {
 	padding: 0.47vw 0 0 0;
 	z-index: 100;
 	font-size: 0.83vw;
-	background-color: #ffffff;
 	float: right;
 }
 
