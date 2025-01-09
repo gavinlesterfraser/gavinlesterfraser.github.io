@@ -10,12 +10,10 @@ interface Props {
 }
 
 const { imagePath, altText, name, age } = Astro.props;
-if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
 
 ---
 {Image}
 <div class="card">
     <h2>{name}</h2>
     <p>Age: {age}</p>
-    <Image src={images[imagePath]()} alt={altText} />
 </div>

@@ -1,16 +1,24 @@
 ---
 layout: ../../layouts/PostLayout.astro
 
-import { Image } from 'astro:assets'
+import { Image } from 'astro:assets';
+import myImage from '../assets/my_image.png'; // Image is 1600x900
 
 title: 'Breakfast Table'
 pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'
-author: 'Gavin Fraser'
+team: 'Gavin Fraser'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["fabrication"]
+tags: ["fabrication", "personal projects"]
 ---
+Based on a classic parsons table design and the dimensions of my front door, this personal project was an experiment for me in welding, solid surface table top construction, and DIY powder coating.
 
-![my table](../assets/IMG_2150.jpeg)
+<Image src={myImage} alt="A description of my image." />
+
+![my table][img1]
+![my table][img2]
+
+[img1]: ../../assets/IMG_2150.jpeg
+[img2]: ../../assets/24-08-personal-project-table/2024-09-15%20final%201.jpeg "Optional title"

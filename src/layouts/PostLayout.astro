@@ -5,7 +5,7 @@ const { frontmatter } = Astro.props;
 ---
 
 <style>
-    body, p {
+    body, img {
     font-size: 1.25vw !important;
 	font-weight: 400;
 	margin: 0;
@@ -17,11 +17,54 @@ const { frontmatter } = Astro.props;
 	font-weight: 400;
 	color: #000000;
 	display: block;
-	position: absolute;
 	z-index: 50;
     }
+	h2 {
+	font-size: 1.25vw !important;
+	font-weight: 400;
+	margin: 0;
+	margin: 0 0 38px 0;
+	text-align: left;
+	text-decoration: none;
+	font-weight: 400;
+	color: #000000;
+	z-index: 50;
+	}
+	img {
+	height: auto;
+	max-height: 100vh;
+	width: auto;
+	max-width: 92vw;
+	text-align: center;
+	display: block;
+	float: left;
+	---margin-left: auto;
+	---margin-right: auto;
+	padding: 0 2vw 5vw 0;
+	}
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	z-index: -100;
+	top: 0;
+	position: relative;
+	---width: 100%;
+	---text-decoration: none;
+	text-align: left;
+}
+
+
 </style>
 
 <BaseLayout pageTitle={frontmatter.title}>
+	<h2>{frontmatter.title}</p>
     <slot />
+	<p>Completed: {frontmatter.pubDate.toString().slice(0,10)}</p>
+	<p>Project Team: {frontmatter.team}</p>
+	<div class="tags">
+    {frontmatter.tags.map((tag: string) => (
+    <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>
+    ))}
+	</div>
 </BaseLayout>
