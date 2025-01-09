@@ -146,7 +146,7 @@ body a:hover {
 
 p {
 	font-family: "Sneak", Helvetica, sans-serif;
-	font-size: 23pt;
+	font-size: 1.25vw;
 	font-weight: 400;
 	display: block;
 	margin-top: 0;
@@ -444,7 +444,7 @@ h5 a:hover {
 }
 
 #itemList {
-	margin: 8.09vw 0 0 3.5vw;
+	margin: 15.5vw 0 0 3.5vw;
 	padding: 0 0 0 0;
 }
 
@@ -471,7 +471,7 @@ h5 a:hover {
 }
 
 #filterLinks {
-	margin: 3.2vw 100px 19px 39.4vw;
+	margin: 8.05vw 3.5vw 19px 3.5vw;
 	position: fixed;
 	top: 0;
 	left: 0;

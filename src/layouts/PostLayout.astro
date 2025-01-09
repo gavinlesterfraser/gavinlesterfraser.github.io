@@ -3,6 +3,25 @@ import BaseLayout from './BaseLayout.astro';
 const { pageTitle } = Astro.props;
 const { frontmatter } = Astro.props;
 ---
+
+<style>
+    body, p {
+    font-size: 1.25vw !important;
+	font-weight: 400;
+	margin: 0;
+    padding: 8.09vw 1vw 38px 34.5vw;
+	margin: 0 0 38px 0;
+	max-width: 65.5vw;
+	text-align: left;
+	text-decoration: none;
+	font-weight: 400;
+	color: #000000;
+	display: block;
+	position: absolute;
+	z-index: 50;
+    }
+</style>
+
 <BaseLayout pageTitle={frontmatter.title}>
     <slot />
 </BaseLayout>
