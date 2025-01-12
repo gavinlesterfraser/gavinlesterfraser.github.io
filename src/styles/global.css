@@ -34,7 +34,7 @@ span {
 }
 
 a {
-	color: #ff0000;
+	color: #a9865c;
 	font-weight: 400;
 	text-decoration: none;
 }
@@ -44,11 +44,11 @@ a:hover {
 }
 
 body a:hover {
-	color: #ff0000;
+	color: #0000ff;
 }
 
 ::selection {
-	color: #ff0000;
+	color: #a9865c;
 }
 
 @media (max-width: 1419px) {
@@ -282,16 +282,12 @@ h5 a:hover {
 }
 
 .page a {
-	color: #ff0000;
+	color: #a9865c;
 	font-weight: 400;
 }
 
 .page a:hover {
 	color: #000000;
-}
-
-.link {
-	color: #ff0000;
 }
 
 .covers {
