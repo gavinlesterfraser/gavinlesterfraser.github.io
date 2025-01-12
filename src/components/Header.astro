@@ -2,22 +2,25 @@
 <div class="navbar">
     <h1>
         <div id="nav-left">
-            <a href="/work">Some work by,</a>
+            <a href="/work" class={Astro.url.pathname === '/work' ? 'active' : ''}>Work</a>
         </div>
         <div id="nav-leftish">
-            <a href="/about">information about,</a>
+            <a href="/about" class={Astro.url.pathname === '/about' ? 'active' : ''}>About</a>
         </div>
         <div id="nav-rightish">
-            <a href="/contact">and contact links for,</a>
+            <a href="/contact" class={Astro.url.pathname === '/contact' ? 'active' : ''}>Contact,</a>
         </div>
         <div id="nav-right">
-            <a href="/">Gavin Fraser</a>
+            <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Gavin Fraser</a>
         </div>
     </h1>
 </div>
 
 
 <style>
+    .navbar a.active {
+    text-decoration: underline;
+    }
 #nav-left {
     position: fixed;
     left: 3.5vw;
