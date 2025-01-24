@@ -9,7 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/image": "^2.10.15",
+    "@astrojs/sharp": "^1.0.0",
     "astro": "^5.1.1"
   }
 }
