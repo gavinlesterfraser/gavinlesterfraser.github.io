@@ -1,6 +1,9 @@
-import { defineConfig } from 'astro';
-import sharp from '@astrojs/sharp';
+// @ts-check
+import { defineConfig } from 'astro/config';
 
+import preact from '@astrojs/preact';
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [sharp()],
+  integrations: [preact()]
 });
