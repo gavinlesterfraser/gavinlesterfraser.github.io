@@ -28,6 +28,7 @@ input,
 select,
 em,
 span {
+	font-family: "Sneak", Helvetica, sans-serif;
 	text-decoration: none;
 	font-weight: 400;
 	color: #000000;
@@ -440,7 +441,7 @@ h5 a:hover {
 }
 
 #itemList {
-	margin: 15.5vw 0 0 3.5vw;
+	margin: 8.5vw 0 0 3.5vw;
 	padding: 0 0 0 0;
 }
 
@@ -468,11 +469,11 @@ h5 a:hover {
 
 #filterLinks {
 	margin: 8.05vw 3.5vw 19px 3.5vw;
-	position: fixed;
+	max-width: 30vw;
+	position: relative;
 	top: 0;
 	left: 0;
 	color: #000 !important;
-	opacity: 0.25;
 }
 
 .filter-link {

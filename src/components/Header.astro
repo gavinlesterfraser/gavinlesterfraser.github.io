@@ -2,16 +2,16 @@
 <div class="navbar">
     <h1>
         <div id="nav-left">
-            <a href="/work" class={Astro.url.pathname === '/work' ? 'active' : ''}>Work</a>
+            <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}></a>
         </div>
         <div id="nav-leftish">
-            <a href="/about" class={Astro.url.pathname === '/about' ? 'active' : ''}>About</a>
+            <a href="/work"  class={Astro.url.pathname === '/work' ? 'active' : ''}>Work</a>
         </div>
         <div id="nav-rightish">
-            <a href="/contact" class={Astro.url.pathname === '/contact' ? 'active' : ''}>Contact,</a>
+            <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>About</a>
         </div>
         <div id="nav-right">
-            <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Gavin Fraser</a>
+            <a href="/contact" class={Astro.url.pathname === '/contact' ? 'active' : ''}>Contact</a>
         </div>
     </h1>
 </div>
