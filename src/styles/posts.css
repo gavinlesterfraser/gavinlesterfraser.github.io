@@ -1,14 +1,14 @@
 
 img {
-    max-width: calc(100vw - 30px);
-    max-height: calc(100vh - 30px);
+    max-width: calc(100vw + 30px);
+    max-height: calc(100vh + 60px);
     height: auto;
     width: auto;
-    padding: 30px 30px 30px 0;
+    padding: 30px 0 30px 0;
 }
 
 body{
-    margin: 8.09vw 3.5vw 10px 3.5vw;
+    margin: 8.09vw 0 10px 0;
     font-size: 1.25vw !important;
     text-align: center;
 
@@ -20,9 +20,9 @@ table td {
 }
 
 .post-description {
-    padding: 8.09vw 0vw 8.09vw 31vw;
+    padding: 8.09vw 0vw 8.09vw 34.5vw;
     margin: -6vw 0 38px 0;
-	max-width: 61.5vw;
+	max-width: 65vw;
 	margin: 0;
 	text-align: left;
 	---display: block;
@@ -33,6 +33,7 @@ table td {
     text-align: left !important;
     position: sticky;
     top: 10px;
+    left: 3.5vw;
     z-index: 100;
     width: 30vw;
     padding: 0;
@@ -51,6 +52,12 @@ h2 {
 	z-index: 50;
 	}
 
-.tags {
-        padding-bottom: 3.5vw;
+.credits {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: baseline;
+    align-items:start;
+    ---vertical-align: top;
+    text-align: left;
+    padding: 0 3.5vw 3.5vw 3.5vw;
     }

@@ -8,13 +8,13 @@ const { frontmatter } = Astro.props;
 <BaseLayout pageTitle={frontmatter.title}>
 	<h4 class="post-title">{frontmatter.title}</h4>
 	<slot />
-	<div style="display: flex; justify-content: space-between; align-items: center;">
+	<div class="credits">
 		<div>
-			<span>Completed in</span>
+			<span>Completed in</span><br />
 			<span>{frontmatter.pubDate.toString().slice(0,10)}</span>
 		</div>
 		<div>
-			<span>The team was</span>
+			<span>The team was</span><br />
 			<span>{frontmatter.team}</span>
 		</div>
 		<div class="tags">

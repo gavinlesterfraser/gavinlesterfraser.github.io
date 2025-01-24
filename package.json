@@ -13,8 +13,5 @@
     "astro": "^5.1.1",
     "gsap": "^3.12.7",
     "preact": "^10.25.4"
-  },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "4.6.1"
   }
 }
