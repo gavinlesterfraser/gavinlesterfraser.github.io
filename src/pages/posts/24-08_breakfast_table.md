@@ -1,6 +1,5 @@
 ---
 layout: ../../layouts/PostLayout.astro
-
 title: 'A Breakfast Table'
 pubDate: 'Oct. 2024'
 image: '/src/assets/24-08-personal-project-table/2024-09-15%20final%201.jpeg'
