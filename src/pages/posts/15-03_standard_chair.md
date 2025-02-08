@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/PostLayout.astro
 title: 'Jean Prouve's Standard Chair No. 4'
-pubDate: '2015-03-01'
+pubDate: 2015-03-01
 team: 'Abby Fields and Gavin Fraser'
 tags: ["fabrication", "student projects"]
 ---
