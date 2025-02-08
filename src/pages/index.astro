@@ -1,9 +1,24 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Greeting from '../components/Greeting';
-const pageTitle = "Home Page";
+const pageTitle = "About";
 ---
-<BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
-  <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+
+<BaseLayout>
+    <div class="content">
+        <div class="page about-me">
+            <h2>
+                Gavin Fraser<br /><br />I am a registered architect and designer based in San Francisco. I aspire to help make the built environment
+					more livable, sustainable, and equitable through housing accessibility, better materials, and better
+					labor practices. <br /><br />
+					I am pursuing these goals as a designer at
+					David Baker Architects, a publisher and editor of The Last Straw magazine, a board member of the
+					California Straw Building Association, and occassionally through
+					other projects. <br /><br />
+					I have collaboratively designed and built three homes at the
+					Auburn University Rural Studio, fabricated custom architectural features with the
+					DBA_Workshop, and explored a wide range of
+					personal projects. <a href="/about" class="more">more &#8594;</a>
+            </h2>
+        </div>
+    </div>
 </BaseLayout>
