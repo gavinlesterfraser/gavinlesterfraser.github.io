@@ -6,14 +6,12 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "netlify:build": "npm install @rollup/rollup-linux-x64-gnu && astro build"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/preact": "^4.0.1",
     "astro": "^5.1.1",
     "gsap": "^3.12.7",
-    "preact": "^10.25.4",
-    "@rollup/rollup-linux-x64-gnu": "^4.6.1"
+    "preact": "^10.25.4"
   }
 }
