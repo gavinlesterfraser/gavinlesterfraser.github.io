@@ -25,7 +25,6 @@ table td {
 	max-width: 65vw;
 	margin: 0;
 	text-align: left;
-	---display: block;
 	z-index: 50;
 }
 
@@ -57,7 +56,6 @@ h2 {
     justify-content: space-between; 
     align-items: baseline;
     align-items:start;
-    ---vertical-align: top;
     text-align: left;
     padding: 0 3.5vw 3.5vw 3.5vw;
     }
