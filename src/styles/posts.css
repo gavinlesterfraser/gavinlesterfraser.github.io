@@ -1,10 +1,10 @@
 
 img {
     max-width: calc(100vw + 30px);
-    max-height: 80vh;
+    max-height: 86vh;
     height: auto;
     width: auto;
-    padding: 30px 30px 30px 0;
+    padding: 0 3.5vw 6.8vw 0;
 }
 
 body{
@@ -19,11 +19,16 @@ table td {
     text-align: left;
 }
 
+.one {
+padding-top: 0 !important;
+margin-top: -1.3vw !important;
+}
+
 .post-description {
-    padding: 6.84vw 0vw 8.09vw 34.5vw;
-    margin: -6vw 0 38px 0;
+    padding: 5vw 0vw 5vw 34.5vw;
+    margin: 0 0 38px 0;
 	max-width: 65vw;
-	margin: 0;
+	---margin: 0;
 	text-align: left;
 	z-index: 50;
 }

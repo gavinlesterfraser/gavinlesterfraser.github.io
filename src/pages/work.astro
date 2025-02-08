@@ -2,6 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostList from '../components/PostList.astro';
 const pageTitle = "Work";
+import { Image } from 'astro:assets';
+import mytable from "../../24-08_personal-project-table/final-table-no-back.png";
 ---
 
 <BaseLayout>
@@ -44,6 +46,7 @@ const pageTitle = "Work";
         </div>
         <div class="item" data-tags="tag2">
             <a href="/posts/24-02_tls_75">
+                <Image src={mytable} alt="A bird sitting on a nest of eggs." />
                 <h5>
                     The Last Straw 75<br />
                     2024

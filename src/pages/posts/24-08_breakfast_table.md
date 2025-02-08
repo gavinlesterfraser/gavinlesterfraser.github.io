@@ -7,7 +7,7 @@ team: 'Just me, but Jordan gave me tips and Anna helped me sand.'
 tags: ["fabrication", "personal projects"]
 ---
 
-<p class="post-description">Based on a classic parsons table design and the dimensions of my front door, this personal project was an experiment for me in welding, solid surface table top construction, and DIY powder coating.</p>
+<p class="post-description one">Based on a classic parsons table design and the dimensions of my front door, this personal project was an experiment for me in welding, solid surface table top construction, and DIY powder coating.</p>
 
 <img src="/src/assets/24-08_personal-project-table/IMG_2150.jpeg" class="img-large" alt="my table">
 <img src="/src/assets/24-08_personal-project-table/2024-09-15%20final%201.jpeg" class="img-large" alt="my table">
