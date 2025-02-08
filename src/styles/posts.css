@@ -1,10 +1,10 @@
 
 img {
     max-width: calc(100vw + 30px);
-    max-height: calc(100vh + 60px);
+    max-height: 80vh;
     height: auto;
     width: auto;
-    padding: 30px 0 30px 0;
+    padding: 30px 30px 30px 0;
 }
 
 body{
@@ -20,7 +20,7 @@ table td {
 }
 
 .post-description {
-    padding: 8.09vw 0vw 8.09vw 34.5vw;
+    padding: 6.84vw 0vw 8.09vw 34.5vw;
     margin: -6vw 0 38px 0;
 	max-width: 65vw;
 	margin: 0;
