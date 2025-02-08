@@ -8,4 +8,4 @@ team: 'Gavin Fraser'
 tags: ["design"]
 ---
 
-Based on a classic parsons table design and the dimensions of my front door, this personal project was an experiment for me in welding, solid surface table top construction, and DIY powder coating.
+<p class="post-description">Based on a classic parsons table design and the dimensions of my front door, this personal project was an experiment for me in welding, solid surface table top construction, and DIY powder coating.</p>
